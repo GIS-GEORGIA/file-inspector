@@ -1,0 +1,20 @@
+[general]
+name=File Inspector
+qgisMinimumVersion=3.44
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Identify any file by its contents, not its extension: format, what data it holds, and open GIS data on the map. Bilingual KA/EN, light and dark theme.
+description[ka]=ნებისმიერი ფაილის ამოცნობა შიგთავსით და არა გაფართოებით: ფორმატი, რა მონაცემებს შეიცავს და GIS მონაცემების რუკაზე გახსნა. ორენოვანია (KA/EN), ღია და მუქი თემით.
+about=Drop a file (or right-click a layer) to see what it really is: magic-byte signatures, text structure and the contents of ZIP containers are checked. GIS formats get a closer look: GeoJSON, KML/KMZ, GPX, GML, GeoPackage, SpatiaLite, MBTiles, shapefile parts (.shp/.shx/.dbf), GeoTIFF (CRS, pixel size), CSV with coordinate or WKT columns, NMEA logs, CRS WKT (.prj), world files, photos with EXIF GPS. Shows details, contents (tables, fields, archive members, data preview), a hex view and readable strings; warns when the extension is wrong or missing and saves a copy with the right one; adds the data to the map. Files are only read: nothing is run, extracted or changed. Also runs as a standalone PyQt6 application.
+about[ka]=ჩააგდე ფაილი (ან ფენაზე მარჯვენა ღილაკი) და ნახე, რა არის სინამდვილეში: მოწმდება ხელმოწერის ბაიტები (magic bytes), ტექსტის სტრუქტურა და ZIP-ის შიგთავსი. GIS ფორმატები უფრო დეტალურად: GeoJSON, KML/KMZ, GPX, GML, GeoPackage, SpatiaLite, MBTiles, შეიპფაილის ნაწილები (.shp/.shx/.dbf), GeoTIFF (კოორდინატთა სისტემა, პიქსელის ზომა), CSV კოორდინატების ან WKT სვეტით, NMEA ჩანაწერები, CRS WKT (.prj), world ფაილები, ფოტოები EXIF GPS-ით. აჩვენებს დეტალებს, შიგთავსს (ცხრილები, ველები, არქივის ფაილები, მონაცემების გადახედვა), hex-ს და წაკითხვად ტექსტს; გაფრთხილებს, თუ გაფართოება არასწორია ან არ აქვს, და ინახავს ასლს სწორი გაფართოებით; ამატებს მონაცემებს რუკაზე. ფაილი მხოლოდ იკითხება: არაფერი ეშვება, არ იხსნება და არ იცვლება. ასევე მუშაობს ცალკე PyQt6 პროგრამად.
+version=0.1.0
+author=GIS GEORGIA | Giorgi Kapanadze
+email=aigroegsig@gmail.com
+homepage=https://github.com/GIS-GEORGIA/file-inspector
+tracker=https://github.com/GIS-GEORGIA/file-inspector/issues
+repository=https://github.com/GIS-GEORGIA/file-inspector
+tags=file,format,identify,inspect,metadata,geojson,kml,geopackage,shapefile,geotiff,georgian
+category=Plugins
+icon=icon.svg
+experimental=True
+changelog=0.1.0 - First version: content-based file identification, GIS format details, contents/hex/strings views, wrong-extension warning and fix, add to map, KA/EN, light/dark/automatic theme, standalone PyQt6 app.
