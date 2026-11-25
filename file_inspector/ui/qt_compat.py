@@ -1,4 +1,4 @@
-"""One import point for Qt.
+"""One import point for Qt (qt-compat-shim: the standalone app cannot reach qgis.PyQt).
 
 Inside QGIS the plugin must use QGIS's own binding through ``qgis.PyQt``
 (PyQt5 on QGIS 3.44, PyQt6 on QGIS 4.x). The standalone app uses PyQt6 and
